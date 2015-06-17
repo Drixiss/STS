@@ -1,0 +1,38 @@
+NAME		RECIPE	ITEM	
+
+band of elder   1073	0982
+magic cuffs     1074	1595
+lightning boots	1075	0898
+cloud in balloon1076	0399
+bee cloak	1077	1247
+power glove	1078	0897
+mechanical glove1079	0936
+status gauntlet 1080	1344-1349, 1109
+chloro scope	1081	1360
+chloro quiver	1082	1361
+cryogenic shield1083	1095
+hermes tabi	1084	1094
+brute instincts	1085	1091
+calm instincts	1086	1092
+daring instincts1087	1093
+arcane cloud emb1088	1090
+blood gem	1089	1100
+band of eagle	1096	1364
+eagle cuffs	1097	1365
+silent steppers	1099	1098
+paladin's shield1104	0938
+shiny red boots 1105    1108
+refreshing orb  1107	1110
+
+
+
+
+
+
+
+
+
+
+
+
+

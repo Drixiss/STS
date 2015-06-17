@@ -1,0 +1,5 @@
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\x86\Debug\Terraria.exe
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\x86\Debug\Terraria.pdb
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\x86\Debug\Terraria.exe
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\x86\Debug\Terraria.pdb
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\x86\Debug\Terraria.csprojResolveAssemblyReference.cache

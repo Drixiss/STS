@@ -1,0 +1,90 @@
+STATS
+
+HP/MP/Heat
+
+-all players will have MP and Heat
+-weapons/activated items will use varying amounts of heat and mana
+-heat will still dominantly be a ranged resource, and mana will still dominantly be a magic source
+-there will be accessories that offer large boosts to each of these
+-your stats (str/int/agi) will also increase each of these
+
+strength/intelligence/agility
+
+-each of these will still affect melee/ranged/magic damage
+-strength and intelligence will still increase max HP/MP
+-agility will likely increase max Heat
+
+-strength will also increase attack speed very slightly
+-intelligence will also increase critical hit chance very slightly
+-agility will also increase defense very slightly
+
+defense
+
+-defense will still protect against all damage types
+-defense will still mainly come from armor
+-accessories will occasionally give armor
+
+movement speed
+
+-movement speed will be separated from agility
+-movement speed will be a set number, not a percentage
+-the majority of a player's movement speed will come from their boots.  Boots will be mutually exclusive
+-some accessories and armor sets will provide subtle movement speed boosts, but nothing compared to boots
+-(idea) boots could go in the leg slot of your armor, and provide defense.  Issue is that it would make set bonuses weird
+
+attack speed
+
+-attack speed will no longer be melee exclusive
+-attack speed will affect firing rate of guns/bows/spells
+-if possible, attack speed will affect ALL weapons in some way
+
+critical hit%
+
+-will no longer be divided between the 3 attack styles.  You will have one "critical hit chance" stat that affects all of them.
+-accessories will be the primary source of crit chance
+-critical hits will add the vanilla damage of your weapon to your attack.
+-EX: Mech has 10 intelligence.  Vilethorn has 5 base damage.  A non-crit would deal 5+(int/2) damage: 10.  A crit would deal 5+(int/2)+5 damage: 15.  This should make critical hits less devastating.  And they really should be, because everyone in the game can crit all the time.
+
+item cooldown
+
+-There will be activated items that have varying cooldowns.  These will go in the Q and E slots.
+-there will be accessories that lower the cooldowns of these items by a percentage.
+
+Reduced Mana/Heat Cost
+
+-some accessories/item abilities will lower mana and heat cost of weapons/items by a percentage.
+
+ITEM CATEGORIES
+
+Weapons
+
+-weapons are not equipped, and offer no stats.
+-weapons are essentially how your character attacks.  If you have a sword, you swing that sword on mouse click.  If you have a spell, you cast that spell on mouse click.
+-weapons can be weilded in 3 different slots.  The main slot is the mouse-click slot.  The item in this slot is used by clicking the mouse.  Players can scroll the mousewheel to move between 3 different mouse-click slots.
+-weapons can also be placed in the Q and E slots.  The player can then press Q or E to use the weapon in that slot.
+-generally, magic weapons will cost some amount of mana, while ranged weapons will cost some amount of heat.  Some melee weapons also cost mana or heat.  Also, some magic weapons might use heat, or heat+mana.  Ranged weapons might also use mana, or heat+mana.  These special cases will only be on a select few weapons, however.
+-Weapons are separated into 6 tiers (0-5).  Level requirements for weapons are 1, 3, 5, 7, 9 and 11 for each respective tier.
+-Weapons from tiers 0-3 have an "item ability" attached to them.  Item abilities are special abilities that enhance your weapons.  Each weapon automatically has its own weapon ability applied to it, and if you kill enough enemies using that weapon, then you can permanently learn the ability, essentially adding the ability to every weapon that the ability applies to.  For instance, The flail, "Ball O' Hurt" has an item ability that says "flails do 5 more damage."  This means that the ball o' hurt inherently does 5 bonus damage.  If you kill enough targets with the ball o' hurt, then all of your flails will also do 5 bonus damage.  Obviously, since it says 'flails' do bonus damage, this means that swords, boomerangs, and anything else, will NOT do 5 bonus damage.
+
+Accessories
+
+-Accessories are items that offer stats, and other passive bonuses.
+-Each player has (TBD) accessory slots.
+-accessories can be combined with certain recipes to create more powerful accessories.  Some of these combined accessories simply combine the stats and effects of the components, while others offer powerful new abilities.
+-Unlike weapons and armor, accessories have no level requirement.  You can buy any accessory at any point in the game, as long as you have the money for it.
+
+Armor
+
+-Armor is equippable, like accessories.
+-Armor is separated into 3 categories: Helmets, Body Armors, and Leg Armors
+-Armor gives a decent boost to stats, and is also the main source of Defense, which lowers all damage received.
+-Some armor sets offer a set bonus, which is a special effect that is earned by wearing all pieces of the armor set.
+-Separate pieces of armor from the same set are usually very similar.  Generally, the helmet will cost less and offer slightly reduced stats and defense, while the body armor will cost more and offer slightly more stats and defense, using the leg armor as a middle-ground.
+-Armor is separated into 4 tiers (0-3).  Level requirements for armor are 1, 4, 7 and 10 for each respective tier.
+
+
+Activated Items
+
+-Activated items are similar to weapons in that you don't equip them, and you can place them on any of your activated slots (Q, E, mouse-click)
+-What differentiates activated items from weapons is the fact that every activated item has a cooldown.  After using an item, you must wait a set amount of time before using it again.  Some accessories can lower the length of these cooldowns.
+-Activated items offer varying effects, from combative abilities, to defensive abilities.  Some of them offer an extra attack, while others apply an aura to you or your teammates, or replenish your health/mana/heat.

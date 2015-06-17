@@ -1,0 +1,116 @@
+ARMOR IDEA DUMP
+-just a bunch of general ideas for armor sets in the new game
+-armor is weird because it's just like accessories but they have special slots and less choices
+-you also get to add set bonuses and stuff, that'd be funky if accessories had set bonuses if you wore a bunch of particular accessories together, but they do that's just called synergy
+
+4 tiers
+t0
+melee
+magic
+range
+
+t1
+melee
+magic
+range
+
+t2
+melee
+melee
+magic
+magic
+range
+range
+
+t3
+melee
+melee
+magic
+magic
+range
+range
+
+
+tier 0
+-T0 armor will mainly just give stats
+-likely 1-2 (main stat) per piece
+
+iron armor
+-set bonus: +10 max hp
+
+Wizard robes/hat/skirt
+-set bonus: +8 max mp
+
+leather armor
+-set bonus: +5 max heat
+
+tier 1
+-T1 armor will start to have more interactive effects
+-likely 5-6 (main stat) per piece
+-some sets might also give non-dominant stats
+
+Granite armor
+-set bonus: slowly gain bonus defense every few seconds, up to a certain maximum amount.  Taking hits will remove a portion of your bonus defense (after damage calculation)
+
+
+Nimbus Robes
+-set bonus: you gain one additional jump.
+
+Winged Armor
+-set bonus: when running at your maximum speed, you can immediately change directions without slowing.
+
+tier 2
+-T2 armor will offer 2 choices to the player.  One will be an inherently weaker armor set with a set bonus, and the other will be an inherently stronger armor set with no set bonus.
+-in order to make T2 armor, the player will have to combine an item with thier T1 armor set.  The item that they combine with thier T1 set will determine the set they craft.  T2 armor sets will all cost the same overall still.
+-T2 armor will give 8-9 (main stat) per set bonus piece, and 11-12 (main stat) per non-set bonus piece
+-might consider having the set bonuses compound on the T2 armor sets
+
+
+shogun garb
+-adds a set amount of movement/attack speed per piece
+-no set bonus
+
+Crystal Armor
+-set bonus: when you take damage, you will heal 30% of the damage taken over the next 4 seconds
+
+Archmage Robes
+-adds a set amount of max mana/crit chance per piece
+-no set bonus
+
+Phase Robes
+-set bonus: every 6 seconds, you will phase out for 1 second, automatically dodging all attacks.
+
+Eagle Eye Armor
+-adds a set amount of attackspeed/projectile velocity per piece
+-no set bonus
+
+Hawk Eye Armor
+-set bonus: shots fired while airbourne do increased damage to enemies
+
+tier 3
+-T3 armor will also have 2 choices per damage type, and will line up with the T2 armor sets.  Each set will be a direct upgrade to a T2 set, and require the T2 set to build.  This is just what I'm thinking of doing right now, don't know if I'll actually like this (obviously everything I'm writing out isn't definite)
+-T3 armor will give somewhere around 15 (main stat) per piece
+
+Eclipse Armor
+-greatly increased max HP per piece
+-set bonus: when you deal damage, you will heal for 60% of the damage done over the next 4 seconds
+
+Ronin garb
+-greatly increase movement speed/attack speed per piece
+-set bonus: consecutive attacks will do an additional 10% of the damage the target took from you in the last 0.75 seconds.
+
+Grandmage Robes
+-greatly increased max mana/crit chance per piece
+-your critical hits apply a 2 second long stacking debuff.  additional critical hits while the target has the debuff do not reset the timer.  When the debuff timer runs out, the target takes some amount of damage based on how many applications of the debuff it has.
+
+Sepctral Robes
+-each piece adds an additional jump
+-set bonus: every 6 seconds, you will phase out for 1.5 seconds, automatically dodging all attacks.  You can also cast spells for 0 mana while phased out.
+
+Eagle's Aspect armor
+-greatly increased attackspeed/projectile velocity per piece
+-set bonus: when moving at your maximum speed, you have a 20% evasion rate
+
+Hawk's Aspect Armor
+-greatly increased jump height/length per piece
+-set bonus: shots fired while airbourne do increased damage and mini-stun enemies

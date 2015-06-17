@@ -1,0 +1,103 @@
+STRENGTH
+
+2 strength = +1 melee damage
+1 strength = +5 max HP
+
+INTELLIGENCE
+
+2 intelligence = +1 magic damage
+1 intelligence = +3 max mana
+
+AGILITY
+
+2 agility = +1 ranged damage
+1 agility = +1.5% movespeed
+
+
+aglet - 3 agility
+anklet of the wind - 7 agility
+cloud in a bottle - 2 agility, 2 intelligence
+shiny red balloon - 2 agility, 2 intelligence
+hermes boots - 2 agility, 2 strength
+tabi - 5 agility
+band of the giant - 2 strength
+band of starpower - 2 intelligence
+band of the agile - 2 agility
+shackle - 1 to everything
+cobalt shield - 2 strength
+honeycomb - 2 to everything
+star cloak - 2 to everything
+panic necklace - 2 to everything
+bezoar - 2 strength
+magma stone - 2 strength
+fast clock - 2 agility
+blindfold - 2 agility
+adhesive bandage - 2 strength
+armor polish - 2 strength
+megaphone - 2 intelligence
+feral claws - 4 agility
+titan's glove - 4 strength
+magic quiver - 10 agility (with guns)
+rifle scope - 10 agility (with bows)
+paladin's shield - 6 strength
+frozen tortoise - 6 strength
+black belt - 5 agility 5 strength
+warrior emblem - 15 strength
+ranger emblem - 15 agility
+sorcerer emblem - 15 intelligence
+
+band of the elder - 3 str/int
+magic cuffs - 3 str/int
+lightning boots - 15 agi
+cloud in a balloon - 4 agi/int
+bee cloak - 4 to everything
+power glove - 4 str/agi
+mechanical gauntlet - 18 str 4 agi
+status gauntlets - 20 str, 5 agi
+chlorophyte scope - 20 agi (with guns)
+chlorophyte quiver - 20 agi (with bows)
+cryogenic shield - 15 str
+hermes tabi - 7 agi, 2 str/int
+brute instincts - 12 str, 2 agi/int
+calm instincts - 12 int, 2 str/agi
+daring insincts - 12 agi, 2 str/int
+arcane cloud emblem - 20 int, 4 agi
+blood gem - 5 str/int
+band of the eagle - 3 str/agi
+eagle cuffs - 3 str/agi
+silent steppers - 10 agi, 10 str
+
+iron armor - 1 strength/piece
+
+hat/robe - 2 intelligence/piece
+
+shadow armor - 4 strength, 3 agility/piece
+
+jungle armor - 6 intelligence, 3% magic crit/piece
+
+necro armor - 8 agility/piece
+
+cobalt armor - 8 strength, 6 agility/piece
+
+palladium armor - 8 strength/piece (regen set bonus)
+
+mythril armor - 10 intelligence/piece
+
+orichalcum armor - 6 intelligence/piece (petal set bonus)
+
+adamantite armor - 10 agility, 4 strength/piece
+
+titanium armor - 8 agility, 5% range crit/piece (dodge set bonus)
+
+turtle armor - 12 strength/piece (thorn set bonus)
+
+crimson armor - 8 strength, 10% atkspeed/piece (30% lifesteal set bonus)
+
+hallowed armor - 13 intelligence/piece
+
+spectre armor - 9 intelligence/piece (spectre set bonus)
+
+chlorophyte armor - 15 agility/piece
+
+shroomite armor - 10 agility, 8% range crit/piece (cloak set bonus)
+

@@ -1,0 +1,83 @@
+ACTIVATED ITEMS IDEA DUMP
+-----------------------------------------------------------------
+-basically these are stat-less tools to help shape your playstyle
+-binded to Q or E or mouse click
+-----------------------------------------------------------------
+
+-obvious: potions
+ -have potions for HP, MP and Heat restoration, in varying amounts
+ -potions will all share one global cooldown
+ -have recipes for combining potions
+ -potions will be infinite like they are now
+
+-obvious: portal key
+ -teleport to mouse cursor, costs mana, whatever, duh, i'm a doctor too
+
+-obvious: BKB
+ -debuff immunity (fairy bell)
+
+
+
+-should have a bunch of just activated attacks, ex. missile strike, shoot 2 homing missiles, 30 second cooldown...generic stuff like that
+
+-----------------------------------------------------------------
+-buncha weird ideas:
+-----------------------------------------------------------------
+
+-Hero's Gambit
+ -on use, lose half of your health.
+ -gain a buff for 5(?) seconds that raises your damage output
+ -once the buff runs out, you are healed for 80% of the damage you did
+
+-land mines
+ -short cooldown, uses large amount of mana/heat
+ -place a land mine that enemy heroes can't see, if they walk over it it blows up and they take x damage
+
+-Charm of Nix
+ -On use, your HP goes to 1
+ -all damage dealt to you for 3(?) seconds is converted to healing
+ -(i know getting set to 1 HP sounds bad, but consider that nothing is targetted, and you can stand in front of allies and take hits.  It's not as simple as "don't target him")
+
+-blood chalice style item
+ -spend HP to regain mana
+ -if an enemy hero dies nearby, HP is refunded
+
+-Ground Pulser
+ -Instantly stun all enemy heroes touching the ground near you for 1 second
+ -long cooldown
+
+-goop
+ -short cooldown and mana costs
+ -leave a trail of goop for 3(?) seconds that makes allies go faster and enemies go slower
+
+-sand wraith ult
+ -on use, shows location of all enemy heroes
+ -use again within 4 seconds to teleport to one of them
+ -low mana/heat cost if second use isn't activated, higher if it is...cooldown doesn't change
+
+-Gate Key
+ -on first use, place a portal where you are
+ -for the next 20(?) seconds, reactivate to teleport back to the portal
+
+-Generic Stealth Cloak
+ -On use, go invisible for 8 seconds
+ -First attack out of stealth applies a 0.5 second stun
+
+-flux ult
+ -on use, pull all enemy heroes towards you
+
+-Pikachu's thunder jolt thing
+ -shoot a beam of electricity that circles around the surface it was placed on for X seconds and does some amount of damage...maybe like slows or mini-stuns or something idk.  Could also add something like a red shell, stays on the surface and bumps enemies around
+
+-Geyser Gem
+ -on use, spout a large water geyser towards your mouse, that does light damage to enemy units in it and pushes all units in it far away
+
+-Nimbus Jar
+ -On use, applies a buff that allows you to jump infinitely for up to 10(?) seconds
+ -buff is immediately cancelled if you take damage
+
+-Polar Orb
+ -Place an orb in front of you that pushes enemies away for 8(?) seconds
+ -reactivate as many times as you want to spend more mana and switch polarity (pulls enemies in)
+
+-A line of items that give immunity to one damage type, but increase the damage you take from the other damage types, for a couple of seconds

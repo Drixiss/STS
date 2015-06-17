@@ -1,0 +1,2225 @@
+10/19/2013 6:43:46 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Images\IceBarrier". File not found. ---> System.IO.FileNotFoundException: Error loading "Content\Images\IceBarrier.xnb". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4375
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4198
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/19/2014 11:59:40 AM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Images\IceBarrier". File not found. ---> System.IO.FileNotFoundException: Error loading "Content\Images\IceBarrier.xnb". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4602
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4425
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/19/2014 12:00:36 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Images\IceBarrier". File not found. ---> System.IO.FileNotFoundException: Error loading "Content\Images\IceBarrier.xnb". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4602
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4425
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/19/2014 11:30:46 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 23214
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34730
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/26/2014 1:36:41 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Lighting.LightTiles(Int32 firstX, Int32 lastX, Int32 firstY, Int32 lastY) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Lighting.cs:line 491
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34822
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/26/2014 1:37:57 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Lighting.LightTiles(Int32 firstX, Int32 lastX, Int32 firstY, Int32 lastY) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Lighting.cs:line 491
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34820
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/26/2014 2:02:27 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Lighting.LightTiles(Int32 firstX, Int32 lastX, Int32 firstY, Int32 lastY) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Lighting.cs:line 491
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34820
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/26/2014 2:22:57 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Lighting.LightTiles(Int32 firstX, Int32 lastX, Int32 firstY, Int32 lastY) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Lighting.cs:line 495
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34820
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/26/2014 2:39:32 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Lighting.LightTiles(Int32 firstX, Int32 lastX, Int32 firstY, Int32 lastY) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Lighting.cs:line 495
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34820
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/26/2014 2:39:56 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Lighting.LightTiles(Int32 firstX, Int32 lastX, Int32 firstY, Int32 lastY) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Lighting.cs:line 495
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34820
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/26/2014 2:41:18 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Lighting.LightTiles(Int32 firstX, Int32 lastX, Int32 firstY, Int32 lastY) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Lighting.cs:line 499
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34820
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/26/2014 2:43:01 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Lighting.LightTiles(Int32 firstX, Int32 lastX, Int32 firstY, Int32 lastY) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Lighting.cs:line 499
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34820
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/26/2014 2:43:34 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Lighting.LightTiles(Int32 firstX, Int32 lastX, Int32 firstY, Int32 lastY) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Lighting.cs:line 499
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34820
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:13:44 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4363
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:17:16 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4363
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:28:04 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4363
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:29:44 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4363
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:31:40 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4363
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:33:50 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4363
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:34:37 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4363
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:35:20 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4363
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:36:41 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4363
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:38:43 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4365
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:39:20 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4365
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:40:25 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4365
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:42:48 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4365
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/12/2014 11:44:19 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26607
+   at Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck, Boolean initializing) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Item.cs:line 26621
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4365
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/16/2014 12:09:51 AM
+System.InvalidOperationException: A previous Draw call threw an unhandled exception. See InnerException for details. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'Texture2D'.
+   at Microsoft.Xna.Framework.Helpers.CheckDisposed(Object obj, IntPtr pComPtr)
+   at Microsoft.Xna.Framework.Graphics.TextureCollection.set_Item(Int32 index, Texture value)
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.RenderBatch(Texture2D texture, SpriteInfo[] sprites, Int32 offset, Int32 count)
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Flush()
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.End()
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34592
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 32996
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Paint(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameWindow.OnPaint()
+   at Microsoft.Xna.Framework.WindowsGameWindow.mainForm_Paint(Object sender, PaintEventArgs e)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 1:43:34 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fonts\Mouse_Text". File not found. ---> System.IO.FileNotFoundException: Error loading "Content\Fonts\Mouse_Text.xnb". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5011
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 1:43:47 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fonts\Mouse_Text". File not found. ---> System.IO.FileNotFoundException: Error loading "Content\Fonts\Mouse_Text.xnb". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5011
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 1:44:21 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fonts\Mouse_Text". This is not a compiled content file.
+   at Microsoft.Xna.Framework.Content.ContentReader.PrepareStream(Stream input, String assetName, Int32& graphicsProfile)
+   at Microsoft.Xna.Framework.Content.ContentReader.Create(ContentManager contentManager, Stream input, String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5011
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 1:45:50 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fonts\Mouse_Text". File contains Microsoft.Xna.Framework.Content.Pipeline.Graphics.FontDescription but trying to load as Microsoft.Xna.Framework.Graphics.SpriteFont.
+   at Microsoft.Xna.Framework.Content.ContentReader.InvokeReader[T](ContentTypeReader reader, Object existingInstance)
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadObjectInternal[T](Object existingInstance)
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadObject[T]()
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadAsset[T]()
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5011
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 1:48:47 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fonts\Mouse_Text". File contains Microsoft.Xna.Framework.Content.Pipeline.Graphics.FontDescription but trying to load as Microsoft.Xna.Framework.Graphics.SpriteFont.
+   at Microsoft.Xna.Framework.Content.ContentReader.InvokeReader[T](ContentTypeReader reader, Object existingInstance)
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadObjectInternal[T](Object existingInstance)
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadObject[T]()
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadAsset[T]()
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5011
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 1:49:48 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fonts\Mouse_Text". File not found. ---> System.IO.FileNotFoundException: Error loading "Content\Fonts\Mouse_Text.xnb". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5011
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 1:52:18 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fonts\Mouse_Text". File contains Microsoft.Xna.Framework.Content.Pipeline.Graphics.FontDescription but trying to load as Microsoft.Xna.Framework.Graphics.SpriteFont.
+   at Microsoft.Xna.Framework.Content.ContentReader.InvokeReader[T](ContentTypeReader reader, Object existingInstance)
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadObjectInternal[T](Object existingInstance)
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadObject[T]()
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadAsset[T]()
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5011
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 1:55:09 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fixedsys". File not found. ---> System.IO.FileNotFoundException: Error loading "Content\Fixedsys.xnb". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5010
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 2:03:58 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fonts\Mouse_Text". File contains Microsoft.Xna.Framework.Content.Pipeline.Graphics.FontDescription but trying to load as Microsoft.Xna.Framework.Graphics.SpriteFont.
+   at Microsoft.Xna.Framework.Content.ContentReader.InvokeReader[T](ContentTypeReader reader, Object existingInstance)
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadObjectInternal[T](Object existingInstance)
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadObject[T]()
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadAsset[T]()
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5011
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 2:12:58 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fonts\Mouse_Text". File contains Microsoft.Xna.Framework.Content.Pipeline.Graphics.FontDescription but trying to load as Microsoft.Xna.Framework.Graphics.SpriteFont.
+   at Microsoft.Xna.Framework.Content.ContentReader.InvokeReader[T](ContentTypeReader reader, Object existingInstance)
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadObjectInternal[T](Object existingInstance)
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadObject[T]()
+   at Microsoft.Xna.Framework.Content.ContentReader.ReadAsset[T]()
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5012
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 2:13:27 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fonts\Mouse_Text". File not found. ---> System.IO.FileNotFoundException: Error loading "Content\Fonts\Mouse_Text.xnb". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5012
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 2:14:52 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Fonts\Mouse_Text". File not found. ---> System.IO.FileNotFoundException: Error loading "Content\Fonts\Mouse_Text.xnb". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 5011
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 4464
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 2:23:07 PM
+System.ArgumentException: The character '©' (0x00a9) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25921
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34463
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 2:23:22 PM
+System.ArgumentException: The character '©' (0x00a9) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25921
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34463
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/23/2014 4:35:47 PM
+System.ArgumentException: The character '©' (0x00a9) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25922
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34464
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/31/2014 9:41:42 PM
+System.InvalidOperationException: A previous Draw call threw an unhandled exception. See InnerException for details. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'Texture2D'.
+   at Microsoft.Xna.Framework.Helpers.CheckDisposed(Object obj, IntPtr pComPtr)
+   at Microsoft.Xna.Framework.Graphics.TextureCollection.set_Item(Int32 index, Texture value)
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.RenderBatch(Texture2D texture, SpriteInfo[] sprites, Int32 offset, Int32 count)
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Flush()
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.End()
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34614
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 33013
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Paint(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameWindow.OnPaint()
+   at Microsoft.Xna.Framework.WindowsGameWindow.mainForm_Paint(Object sender, PaintEventArgs e)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/1/2014 9:03:25 PM
+System.ArgumentException: The character '▼' (0x25bc) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25922
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34623
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/1/2014 9:03:44 PM
+System.ArgumentException: The character '▼' (0x25bc) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25922
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34623
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/1/2014 9:04:30 PM
+System.ArgumentException: The character '▼' (0x25bc) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25922
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34623
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:18:36 PM
+System.ArgumentException: The character 'ç' (0x00e7) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25924
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34625
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:19:07 PM
+System.ArgumentException: The character 'ç' (0x00e7) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25924
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34625
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:20:53 PM
+System.ArgumentException: The character 'ç' (0x00e7) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25924
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34625
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:21:27 PM
+System.ArgumentException: The character 'ç' (0x00e7) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25924
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34625
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:22:49 PM
+System.ArgumentException: The character 'ç' (0x00e7) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu()
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args)
+/n
+5/8/2014 5:23:11 PM
+System.ArgumentException: The character 'ä' (0x00e4) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25924
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34625
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:23:46 PM
+System.ArgumentException: The character 'ä' (0x00e4) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25924
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34625
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:24:27 PM
+System.ArgumentException: The character 'é' (0x00e9) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25924
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34625
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:25:01 PM
+System.ArgumentException: The character 'ä' (0x00e4) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25924
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34625
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:25:41 PM
+System.ArgumentException: The character 'ä' (0x00e4) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25889
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34590
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:26:51 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25861
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34562
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:28:42 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25861
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34562
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:31:01 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25863
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34564
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:31:39 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25863
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34564
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:33:00 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25863
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34564
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:33:22 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25863
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34564
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:42:33 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25863
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34564
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:43:58 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25863
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34564
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/8/2014 5:50:09 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25867
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34568
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/17/2015 8:03:00 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 25718
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Main.cs:line 34419
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/17/2015 8:04:26 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25718
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34419
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+1/27/2015 10:46:48 PM
+Microsoft.Xna.Framework.Content.ContentLoadException: Error loading "Images\Item_165". File not found. ---> System.IO.FileNotFoundException: Error loading "Content\Images\Item_165.xnb". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName)
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject)
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName)
+   at Terraria.Main.LoadContent() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 4778
+   at Microsoft.Xna.Framework.Game.Initialize()
+   at Terraria.Main.Initialize() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 4468
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/6/2015 7:37:18 PM
+System.ArgumentException: The device name is not valid. Device names are in the form \\.\\DEVICE1
+Parameter name: screenDeviceName
+   at Microsoft.Xna.Framework.WindowsGameWindow.ScreenFromDeviceName(String screenDeviceName)
+   at Microsoft.Xna.Framework.WindowsGameForm.ResizeWindow(String screenDeviceName, Int32 clientWidth, Int32 clientHeight, Boolean center)
+   at Microsoft.Xna.Framework.WindowsGameForm.EndScreenDeviceChange(String screenDeviceName, Int32 clientWidth, Int32 clientHeight)
+   at Microsoft.Xna.Framework.WindowsGameWindow.EndScreenDeviceChange(String screenDeviceName, Int32 clientWidth, Int32 clientHeight)
+   at Microsoft.Xna.Framework.GraphicsDeviceManager.ChangeDevice(Boolean forceCreate)
+   at Microsoft.Xna.Framework.GraphicsDeviceManager.EnsureDevicePlatform()
+   at Microsoft.Xna.Framework.GraphicsDeviceManager.Microsoft.Xna.Framework.IGraphicsDeviceManager.BeginDraw()
+   at Microsoft.Xna.Framework.Game.BeginDraw()
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/12/2015 11:46:03 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/12/2015 11:46:25 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/12/2015 11:46:44 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/12/2015 11:47:13 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/16/2015 7:05:31 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/16/2015 7:23:59 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/16/2015 7:28:05 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/16/2015 7:31:23 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/16/2015 7:36:17 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/16/2015 7:39:06 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/16/2015 7:40:41 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/16/2015 7:43:09 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/16/2015 7:47:42 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/16/2015 7:50:54 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+2/16/2015 8:18:09 PM
+System.ArgumentException: The character ' ' (0x0000) is not available in this SpriteFont. If applicable, adjust the font's start and end CharacterRegions to include this character.
+Parameter name: character
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.GetIndexForCharacter(Char character)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.InternalMeasure(StringProxy& text)
+   at Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(String text)
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 25733
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34434
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/2/2015 7:57:02 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Main.DrawMenu()
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args)
+/n
+3/2/2015 7:58:11 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 23682
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34542
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/2/2015 8:33:26 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 23687
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34556
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/2/2015 8:34:21 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 23687
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34556
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/2/2015 8:36:21 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 23660
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34556
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/2/2015 8:38:12 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 23660
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34556
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/2/2015 8:38:36 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 23660
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34556
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/2/2015 8:40:04 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 23660
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34556
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/2/2015 8:54:12 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Main.DrawMenu()
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args)
+/n
+3/4/2015 2:50:06 AM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 23018
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34620
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/4/2015 2:51:21 AM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 23018
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34620
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/5/2015 3:36:28 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 22604
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34733
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/5/2015 3:37:39 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.DrawMenu() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 22604
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 34733
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/8/2015 4:28:40 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Recipe.addRecipe() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Recipe.cs:line 434
+   at Terraria.Recipe.SetupRecipes() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Recipe.cs:line 389
+   at Terraria.Main.Initialize() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 4470
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+3/13/2015 1:27:54 AM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.Initialize() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 3239
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/7/2015 6:36:12 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31444
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33075
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/7/2015 9:31:54 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31444
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33075
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/7/2015 10:05:52 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31444
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33075
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/7/2015 10:09:53 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31444
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33075
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/7/2015 10:14:13 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31444
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33075
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/7/2015 10:51:34 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31444
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33075
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/7/2015 11:00:08 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31444
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33075
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/7/2015 11:31:36 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31444
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33075
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/7/2015 11:32:45 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31444
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33075
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+4/7/2015 11:35:21 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31444
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33075
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/1/2015 5:11:50 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31563
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33194
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/5/2015 5:35:16 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31630
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33261
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/5/2015 5:39:20 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31630
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33261
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+5/5/2015 5:41:41 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.lookForColorTiles() in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 31630
+   at Terraria.Main.Draw(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 33261
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 57
+/n
+6/2/2015 10:36:44 PM
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.Update(GameTime gameTime) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Main.cs:line 6062
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.Main(String[] args) in C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\Terraria\Program.cs:line 56
+/n

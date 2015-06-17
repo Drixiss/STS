@@ -1,0 +1,16 @@
+
+1 iron armor - statdefense += 2			0
+2 wizard robes - magiccrit += 5			28
+
+3 shadow - Player.moveSpeed += 0.1f		2
+4 necro - bonearmor				4
+5 jungle - manaCost -= 0.16f			5
+
+6 palladium - onhitregen			24
+7 orichalcum - onhitpetal			25
+8 titanium - onhitdodge				26
+
+9 turtle - turtlethorns/thorns			9
+10 crimson - crimsonregen			21
+11 spectre - ghostheal				30
+12 shroomite - armorSteath			31

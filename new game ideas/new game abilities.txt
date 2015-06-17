@@ -1,0 +1,134 @@
+NEW GAME ITEM ABILITIES IDEA DUMP
+
+-to start, each attack type will have 3 categories
+-each category will contain 2 full sets of weapons in each tier
+-abilities in each set will be different to offer players who build the same weapon type to still have a different playstyle
+-tier 0 will probably still be one choice for most weapon types (like how iron broadsword is the only T0 sword)
+-magic will be an exception, with 3 main weapon types and a "misc" category with abilities that affect all magic weapons.  Each weapon type will only have one set of weapons.
+
+
+
+ABILITY IDEAS
+
+melee
+
+
+swords (close range high base damage)
+
+(speed/range focused)
+-chance to double-hit
+-fire projectiles
+-attacks apply a stacking debuff that lowers defense/increases sword damage
+-increased movespeed while swinging (costs heat?)
+
+
+
+(damage/tank focused)
+-bonus damage based on defense/HP
+-swing speed cut in half, double damage
+-lifesteal
+-increased defense while swinging (or dodge chance) (costs heat?)
+-DoT's, slows, stuns, etc.
+
+spears (mid-range mobility with decent base damage)
+
+(mobility)
+-charge effect (maybe add a stun if you hit someone while charging)
+-movement speed increases damage
+-swing at the floor to bounce up
+-killing an enemy hero gives +1 agility
+
+(damage over time)
+-mushroom trail-type effect
+-various DoT's
+-bonus damage based on number of debuffs on target
+-debuff that increases damage of DoT effects
+
+boomerangs (long-ranged mobility with low base damage)
+
+(disabling/gap closing)
+-slow and stun effects
+-spend mana to teleport to your boomerang
+-boomerangs fly farther/faster
+-bonus damage based on difference b/w your movespeed and target's movespeed
+
+
+(raw damage)
+-boomerangs do increased damage on the way back
+-throw 2 boomerangs at once
+-DoT's
+-lifesteal?
+-inherent bonus damage
+
+ranged
+
+
+bows (slower projectiles, larger area of effect, low heat costs)
+
+(velocity/ease of hitting)
+-hold shift: 2x velocity/firing rate, 2x heat cost
+-fire 2+ arrows at once
+-bows use half as much heat, and take the other half out of mana
+-opponents are magnetically dragged towards your arrows (reverse homing)
+
+(Damage/DoT's)
+-DoT's
+-inherent damage increase
+-arrows that hit the floor/wall leave an AoE poison cloud where they land
+-increased penetration
+
+guns (high range, high heat, high damage potential)
+
+(lower heat cost/ease of hitting)
+-increased number of bullets shot
+-lowered heat cost
+-increased shot range/firing rate
+-bullets richocet off walls x times
+
+
+(damage/disable)
+-bullets pierce some amount of defense
+-bullets have a mini-stun chance
+-while standing still, fire faster/do more damage
+-inherent damage increase
+
+
+thrown (mid-range)
+
+(ease of hitting/amount thrown)
+-increase thrown range
+-increase amount thrown
+-increase size of thrown weapons
+-hold shift to go invisible, at the cost of mana
+
+(damage/disable/DoT's)
+-high damage, low duration DoT's (like bleed)
+-thrown weapons stick to enemies, slowing them for 2 seconds.  At the end of the slow, they deal damage equal to 1/2 their raw damage.  Only one can be stuck at a time.
+-thrown weapons stick to walls/floor, damaging enemies who walk over them.
+-inherent damage increase/generic poison DoT or something
+
+magic
+
+lasers (very fast, high damage, high mana cost, long range)
+-hold shift to charge lasers, increasing mana cost and damage dealt
+-missing with a laser will refund 50% mana
+-lasers will cost half as much mana, and take the other half out of heat
+-inherent damage increase
+
+staves (slow moving, very large area of effect)
+-all staves will add 1 extra projectile for staves, and...
+-chance to slow
+-additional penetration
+-projectiles split into new ones after a while of being out
+
+clouds (similar to vilethorn/nettle burst, leaves an AoE 'cloud' that does damage to everything in it)
+-add various debuffs (slows, DoT's, everything...)
+-adds a constant cloud around you that does minor damage and has all cloud abilities earned
+-increase rate that the cloud hits people
+-increase size of cloud
+
+misc (various ranges/effects/damage/mana costs)
+-reduced mana cost of spells
+-increase damage/crit chance with spells
+-spells add a DoT that deals x% of your max mana as damage over 3 seconds
+-other generic magic weapon stuff, i'll figure things out

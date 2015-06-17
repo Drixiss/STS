@@ -1,0 +1,23 @@
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\obj\Debug\Window1.baml
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\obj\Debug\Window1.g.cs
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\obj\Debug\App.g.cs
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\obj\Debug\XNASpriteFontCreator.csproj.GenerateResource.Cache
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\bin\Debug\IXNAESFC.exe
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\bin\Debug\IXNAESFC.pdb
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\obj\Debug\IXNAESFC_MarkupCompile.cache
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\obj\Debug\IXNAESFC.g.resources
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\obj\Debug\IXNAESFC.Properties.Resources.resources
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\obj\Debug\IXNAESFC.exe
+C:\Users\Ian\Documents\Visual Studio 2008\Projects\XNASpriteFontCreator\XNASpriteFontCreator\obj\Debug\IXNAESFC.pdb
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Content\Fonts\XNASpriteFontCreator\obj\Debug\IXNAESFC.exe
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Content\Fonts\XNASpriteFontCreator\obj\Debug\IXNAESFC.pdb
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Content\Fonts\XNASpriteFontCreator\bin\Debug\IXNAESFC.exe
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Content\Fonts\XNASpriteFontCreator\bin\Debug\IXNAESFC.pdb
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Content\Fonts\XNASpriteFontCreator\obj\Debug\Window1.baml
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Content\Fonts\XNASpriteFontCreator\obj\Debug\Window1.g.cs
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Content\Fonts\XNASpriteFontCreator\obj\Debug\App.g.cs
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Content\Fonts\XNASpriteFontCreator\obj\Debug\IXNAESFC_MarkupCompile.cache
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Content\Fonts\XNASpriteFontCreator\obj\Debug\IXNAESFC.g.resources
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Content\Fonts\XNASpriteFontCreator\obj\Debug\IXNAESFC.Properties.Resources.resources
+C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Content\Fonts\XNASpriteFontCreator\obj\Debug\XNASpriteFontCreator.csproj.GenerateResource.Cache

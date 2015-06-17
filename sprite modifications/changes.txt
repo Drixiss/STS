@@ -1,0 +1,31 @@
+GUIDE
+
+NPC_26 - White Team Creep
+NPC_27 - Black Team Creep
+
+NPC_69 - White Tower
+NPC_70 - Black Tower
+
+NPC_276 - White Team Mega Creep
+NPC_277 - Black Team Mega Creep
+
+NPC_134 - Destroyer Head
+NPC_290 - Paladin
+
+REGULAR CREEPS
+
+minimum: just make them look more team oriented.  White/blue theme for npc 26, black/red theme for npc 27.  NPC 26 has a little hat and shirt, you could just change colors of these and use them for npc 26 and 27.
+
+detailed: make them look more like a white knight and a black knight with armor on and stuff.  Maybe you could use some of the armor sprites for players and kinda paste them onto the creep sprites.
+
+TOWERS
+
+minimum: Use the same sprite that we used before: the destroyer head.  I've included that in case you want to use that.  Make the white tower a little lighter with a blue eye, and the black tower a darker gray, almost black, with a red eye.
+
+detailed: I dunno maybe you can think of some sweet idea for towers, but the destroyer heads are fine for now
+
+BIG CREEPS
+
+minimum: don't do anything, they already look pretty team oriented
+
+detailed: maybe replace both sprites with the paladin sprite, and recolor it to be black/red themed for the black team

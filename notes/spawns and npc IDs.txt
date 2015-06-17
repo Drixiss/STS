@@ -1,0 +1,39 @@
+white tower: 69
+black tower: 70
+
+clinger: 101
+fungi bulb: 260
+maneater: 43
+snatcher: 56
+angry trapper: 175
+
+water sphere: 33
+
+goblin peon: 26
+goblin thief: 27
+
+CREEPS (white to black)
+80.295
+1015.295
+
+
+TOWERS (left to right)
+
+225.295
+405.293
+
+795.293
+975.295
+
+
+JUNGLE (left to right)
+	     w1      w2     b1        b2
+Snatcher: 118.381 107.367 1088.395 1081.382
+
+Maneater: 216.393 189.395 995.419  989.393
+
+Trapper:  270.393 307.385 950.404  923.394
+
+Mushroom: 420.400 389.400 807.382  824.367
+
+Clinger:  455.387 468.374 783.402  780.387

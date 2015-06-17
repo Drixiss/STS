@@ -1,0 +1,174 @@
+NOTES FOR NEW JUNGLE SPAWNING SYSTEM
+
+new constants:
+
+PLAYER1-PLAYER6 SPAWNS 1-4
+
+151-154
+155-158
+159-162
+163-166
+167-170
+171-174
+
+(RECT) JUNGLE AREA(168, 130, 200, 80)
+
+HORNET ID 42
+WOLF ID 155
+MOTHER SLIME ID 16
+BLOOD CRAWLER ID 239
+GIANT TORTOISE ID 153
+DEMON ID 62
+BLACK RECLUSE ID 163
+CORRUPT SLIME ID 81
+
+ISBOSSDOWNED false
+SPAWN RANGE 10
+
+KILLED MOBS TOTAL 0
+SUMMON POINT	150
+
+Mobs
+
+before boss dies
+
+2 hornets
+1 wolf
+1 mother slime
+2 blood crawlers
+
+after boss dies
+
+1 giant tortoise
+2 demons
+2 black recluse
+1 corrupt slime
+
+every 15 seconds:
+-check each player's position
+-if it is within jungle rectangle
+ -check if boss downed
+ -spawn random mob from appropriate group
+  -(pick random x value +/- 50 from spawn range)
+  -(pick random mob type from 4 possibilities)
+  -(set player's spawn slots to new mob)
+ -make npc target player, take away ability to change targets
+-if player leaves jungle area
+ -set player's spawns' time left to 3 seconds
+
+
+JUNGLE CREEP PROGRESSION
+
+hornets:
+20 hp
+0 defense
+20 damage
+8 gp
+every 2 minutes:
++2 hp
++0.5 defense
++2 damage
++2 gp
+
+blood crawlers:
+25 hp
+0 defense
+15 damage
+8 gp
+every 2 minutes:
++3 hp
++0.5 defense
++1 damage
++2 gp
+
+wolves:
+50 hp
+2 defense
+18 damage
+16 gp
+every 2 minutes:
++5 hp
++1 defense
++2 damage
++4 gp
+
+mother slimes:
+75 hp
+0 defense
+15 damage
+10 gp
+every 2 minutes:
++8 hp
++0.5 defense
++1 damage
++1 gp
+baby slimes:
+20 hp
+0 defense
+15 damage
+2 gp
+every 2 minutes:
++2 hp
++0 defense
++1 damage
++1 gp
+
+Demons:
+50 hp
+5 defense
+30 damage
+15 gp
+every 2 minutes:
++5 hp
++0.5 defense
++3 damage
++4 gp
+
+Black Recluses:
+75 hp
+6 defense
+25 damage
+15 gp
+every 2 minutes:
++7 hp
++0.5 defense
++2 damage
++4 gp
+
+Giant Tortoises:
+100 hp
+15 defense
+30 damage
+30 gp
+every 2 minutes:
++10 hp
++1 defense
++3 damage
++8 gp
+
+Corrupt Slime:
+150 hp
+2 defense
+20 damage
+18 gp
+every 2 minutes:
++15 hp
++0.5 defense
++2 damage
++5 gp
+
+Slimeling:
+40 hp
+0 defense
+20 damage
+4 gp
+every 2 minutes:
++4 hp
++0 defense
++2 damage
++1 gp
+
+
+
+
+

@@ -1,0 +1,240 @@
+ROADMAP - 99% COMPLETE WITH ITERATION 0.1.2 (static abilities)
+          81% COMPLETE WITH ITERATION 0.1.3 (chosen abilities)
+
+NPC INTEGRATION -- 99%
+---------------------------------
+towers 98%
+-Figure out why they're floating
+
+creeps 100%
+
+jungle 100%
+---------------------------------
+
+ITEM INTEGRATION -- 100%
+---------------------------------
+shop building 100%
+
+item balancing 100%
+-player projectiles that may need a max duration
+ =beam sword
+ =frostbrand
+ =amethyst staff
+ =ruby staff
+ =space gun
+ =diamond staff
+ =leaf blower?
+ =book of skulls
+ =laser rifle
+ =frost staff
+ =heat ray
+ =shadowbeam staff
+ =arrows? shurikens?
+ =musket ball
+ =meteor shot
+ =exploding bullet
+ =crystal bullet
+ =golden bullet
+ =cursed bullet
+ =venom bullet
+ =bone arrow?
+ =ice arrow?
+ =rocket III
+
+item/buff rehauls 100%
+=fairy bell (recreate it)
+=night's edge (add 1/5 darkness chance)
+=frostbrand (add 1/3 frostburn chance)
+=ice bow (add frostburn arrow)
+=molten fury (add hellfire arrow)
+=minishark (add shark tooth debuff)
+=marrow (look into it)
+=shuriken (add bleed effect)
+=rod of discord (mana cost, cooldown, hotkey, max range)
+=dark lance (add lunge ability)
+=grappling hook (hook duration limit)
+=band of regeneration -> band of the giant (+20 max HP)
+=shackle (+1% damage, +1% crit)
+=adhesive bandage (switch to venom)
+=magic quiver (increase arrow velocity or something)
+=rifle scope (increase firing rate/damage of bullets)
+=restoration potion -> jeremy's nightcap
+=magma stone (immunity to fire, take away fire on hit)
+=all gauntlets (create them, rebalance bonuses)
+=avenger emblem (+16% damage)
+=mechanical glove (buff it)
+=magic cuffs (+20 HP/MP) 
+=fire lowers defence, poison lowers damage output, etc.
+=lightning boots (take out rocket boots effect)
+=piranha gun (make it stick to players, add lifesteal?)
+=mushroom spear (increase mushroom duration)
+=projectiles infinite, never drop freebies
+=iron armor (set effect: 5% melee, +2 def)
+=necro armor (set effect: +10% ammo velocity)
+=cobalt armor (10% movespeed, 5% melee crit per piece)
+=palladium (12% meleespeed per piece, buff set effect)
+=mythril armor (+6% magic crit/30 mana per piece)
+=orichalcum armor (-10% casting cost per piece)
+=adamantite armor (+7% range damage per piece)
+=titanium armor (+8% movespeed/5% rcrit per piece)
+=turtle armor (+5% meleedamage per piece)
+=crimson armor (+15% meleespeed per piece, 5% lifesteal)
+=spectre armor (+1 jump height/+5% magicCrit per piece)
+=hallowed armor (+40 mana and 8% magic damage per piece)
+=chlorophyte armor (+15% movespeed/8% rdamage per piece)
+=shroomite armor (look over cloak effect, 8% rcrit/piece)
+---------------------------------
+
+HERO INTEGRATION -- 100%
+---------------------------------
+picking 100%
+
+core abilities 100%
+=JUGGERNAUT		0
+=SOUL EATER 		1
+=DRAGOON		2
+=CELESTIAL BEING	3
+=MECH			4
+=AEGIS			5
+=CLOAK			6
+=PYRO			7
+=CELES			8 (port key, mana burn [level]%)
+=MARLBORO		9
+(later) TIKI		10 (summoning)
+
+kills and progression 100%
+---------------------------------
+
+LEVELING SYSTEM -- 100%
+---------------------------------
+(0.1.3) possibly think up a better exp per level formula
+
+KNOWN ISSUES
+---------------------------------
+-dark lance charge initial attack does not work with juggernaut's velocity damage
+-homing items need to do the following:
+ -not home in on: allies, invincible towers
+ -give enemy heroes priority for homing
+ -list of homing items:
+  -flower pow
+  -piranha gun
+  -chlorophyte bullets
+  -possessed hatchet
+  -bees
+  -chlorophyte set bonus
+---------------------------------
+
+NEW CONCEPTS
+---------------------------------
+-NEW HERO: TIKI (no set damage style)
+ -gains pygmy warriors as he levels
+ -level 1: 1 pygmy,   10 damage
+ -level 3: 1 pygmy,   15 damage
+ -level 4: 2 pygmies, 15 damage
+ -level 5: 2 pygmies, 20 damage
+ -level 7: 3 pygmies, 25 damage
+ -level 9: 3 pygmies, 30 damage
+ -level10: 4 pygmies, 30 damage
+ -level11: 4 pygmies, 35 damage
+---------------------------------
+
+NEW RANGED SYSTEM: HEAT
+---------------------------------
+Ranged heroes gain max heat over time each level
+using a ranged weapon adds an amount of heat
+if heat reaches max heat, player cannot attack
+heat goes down at constant rate fairly quickly overtime
+---------------------------------
+
+ABILITY INTEGRATION -- 0%
+---------------------------------
+(won't do this until after game is playable and has been tested extensively)
+
+picking system 0%
+-pick between abilities at hero picking screen
+-abilities successfully carry over ingame
+
+actual ability mechanics 0%
+-code all abilities...
+
+
+---------------------------------
+
+ITEM INTEGRATION PART 2 (ABILITIES) -- "100"%
+---------------------------------
+(won't do this until after game is playable and has been tested extensively)
+
+item ability mechanics 100%
+=ball o' hurt - +10% damage w/ flails
+=wooden boomerang - +20% velocity on boomerangs
+=iron broadsword - autoreuse all swords
+=trident - +15% attack speed w/ spears
+=Blood Butcherer - 10% lifesteal w/ swords
+=Blade of Grass - 1/4 chance to hit again for 50% damage with swords
+=Enchanted Boomerang - 1/4 melee attacks slow
+=Ice Boomerang - 1/5 melee attacks chill
+=Rotted Fork - 10% lifesteal w/ spears
+=Blue Moon -  prisoner945 pull
+=Sunfury - Flails inflict burning
+=Dark Lance - lunge in direction of spear (3 sec CD)
+=Thorn Chakram - throw 2 boomerangs
+=Flamarang - 1/3 boomerang attacks on fire
+=Beam Sword - beam projectile on all swords
+=Mushroom Spear - all spears leave behind mushrooms
+=Fiery Greatsword - 1/3 sword attacks burn
+=Night's Edge - 1/4 sword attacks inflict darkness
+=Frostbrand - 1/3 sword attacks frostburn
+
+=Amethyst Staff - staves shoot an extra bolt
+=Ruby Staff - staves shoot an extra bolt
+=Emerald Staff - staves shoot an extra bolt
+=Skull Staff - Staves penetrate one extra time
+
+=Space Gun -  lasers refund 50% of mana if they miss
+=Laser Rifle - hold shift to charge up the laser
+
+=Vilethorn - 10% mana cost reduction on all spells
+=Nettle Burst - 10% mana cost reduction on all spells
+
+=Crimson Rod - 5% lifesteal on spells
+=Nimbus Rod - 5% lifesteal on spells
+
+=Leaf Blower - +10% crit rate on spells
+
+=Magic Missile - Missile spells penetrate 1 more time
+=Flamelash - Missile spells penetrate 1 more time
+
+=Iron Bow - 20% increased shoot speed
+=Demon Bow - arrows penetrate one extra time
+=Molten Fury - bows shoot an additional arrow
+=Ice Bow - 1/10 chance to inflict frozen with bows
+
+=Flintlock Pistol- +5% damage w/ guns
+=Musket - guns do additional damage based on travel time
+
+=Uzi - heat cost of guns is reduced by 15%
+=Clockwork Assault Rifle - heat cost of guns is reduced by 15%
+
+=Shurikens - 1/4 ranged attacks cause bleeding
+
+=Boomstick - guns shoot an additional bullet
+=Shotgun - guns shoot an additional bullet
+
+new items "100%" (considering not adding in other items):
+possible magic ranged/melee weapons:
+=m magic dagger
+-m clown knife
+-r flamethrower
+-r bee gun
+-r beenades
+-r wasp gun
+
+possible new accessory ideas:
+-Reversal Orb
+-Force Gem
+
+item ability buffs 100%
+=create array to keep track of weapon exp
+=display achieved weapon abilities with buff-like system
+
+---------------------------------

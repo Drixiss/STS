@@ -1,0 +1,132 @@
+HERO IDEAS FOR NEW GAME
+
+categories will be similar: melee, magic, ranged, all purpose.  Might have some ranged/melee, melee/magic, magic/ranged
+
+your hero choice will determine your base HP, base MP, and base heat, as well as your HP/MP/heat gains on level up.
+
+heroes will also have various passive abilities that determine their playstyle, game presence, or potential synergies.
+
+At the start, I would like 3 heroes in each category, and slowly add more after releasing the game.
+
+Generally, a hero structure will involve one large, flashy ability that stands as the centerpiece (cloak going invisible, soul eater healing upon killing something, etc.), and one simpler ability that acts as more of a perk (Built in wings on heroes, rocket boots on mech, etc.)  The Perks don't necessarily have to be minor and weak abilities, they just need to be simpler and more straight forward.
+
+MELEE HEROES
+
+SOUL EATER (not going anywhere)
+-Base HP: 160 (34/lev)
+-Base MP: 020 (06/lev)
+-Base HT: 040 (05/lev)
+
+-Soul Eater does not regenerate health over time, and instead degenerates health over time.
+-When Soul Eater kills an enemy unit, he is healed for 25% of their max health.  Health gain is capped at 50.
+-When Soul Eater kills an enemy hero, he is health for 33% of their max health.  Health gain is capped at 100.
+
++Soul Eater gets a passive damage increase as he loses health, up to ~200% damage at 1 HP.
+
+SMOKE
+-Base HP: 120 (30/lev)
+-Base MP: 020 (06/lev)
+-Base HT: 060 (05/lev)
+
+-When not on cooldown, Smoke will automatically dodge the next attack, and become invisible for 5 seconds or until he attacks.  Smoke's first attack out of stealth will deal 150% damage, and apply a bleed that deals damage equal to the amount of damage Smoke dodged over 3 seconds.  After dodging, this ability goes on cooldown for 9 seconds.
+-Enemy units affected by bleed have a 1/4 chance to miss Smoke.
+
++Smoke has 20% shorter cooldowns for all useable items.
+
+METAL HEAD
+-Base HP: 140 (32/lev)
+-Base MP: 040 (08/lev)
+-Base HT: 020 (05/lev)
+
+-Metal Head gains 1 bonus defense for each 5 Strength.
+-Each time Metal Head is struck, he loses 1/5 of his bonus defense.  Once he loses all of his bonus defense, he regains all of it, and deals damage in a small area around him equal to his total defense (bonus+equipment).
+
++Metal Head deals 40% bonus damage to enemy units that are above 80% HP.
+
+MAGIC HEROES
+
+PIXY
+-Base HP: 100 (28/lev)
+-Base MP: 060 (14/lev)
+-Base HT: 020 (05/lev)
+
+-Pixy has a healing aura, healing nearby friendly units for half of her intelligence every second.
+-Pixy's critical hits apply 'fairy dust' to the target for 2 seconds.  
+-Targets affected by fairy dust are slowed by 25%, and cannot jump.
+
++Pixy can hold 'jump' to fall slowly while in the air.
+
+IMP
+-Base HP: 100 (26/lev)
+-Base MP: 060 (16/lev)
+-Base HT: 020 (05/lev)
+
+-Imp has a mana healing aura, restoring nearby friendly units' mana by 25% of his intelligence every second.
+-Imp's critical hits apply 'dark void' to the target for 4 seconds.
+-Targets affected by dark void lose HP and MP equal to 20% of Imp's max MP.  Imp is also healed for 30% of the damage taken by them.
+
++Imp can jump off of walls, and stick to them for a short period of time.
+
+MECH (also not going anywhere, but he's different)
+-Base HP: 100 (30/lev)
+-Base MP: 050 (15/lev)
+-Base HT: 040 (05/lev)
+
+-Mech gains 1 charge everytime he spends 15 mana.  Mech can have up to 20 charges at a time.  Each charge gives mech 1% increased damage.
+-If Mech takes damage, he loses half of his charges, and regenerates 5 mana for each charge lost.  If Mech had more than 10 charges when he was struck, then he fires homing rockets towards the enemy that hit him.  The amount of rockets fired and damage of the rockets is based on Mech's Maximum mana.
+
++Mech can press and hold jump while in the air to use his rocket boots, giving him increased airtime
+
+RANGED HEROES 
+(really i just like all of our current ones...some are reworked slightly)
+
+PYRO
+-Base HP: 100 (28/lev)
+-Base MP: 020 (08/lev)
+-Base HT: 080 (07/lev)
+
+-Pyro has a high chance to inflict 'cursed flames' on enemy units for 4 seconds.  Cursed flames reduces the target's defense by 8 and deals 8 damage per second.  'cursed flames' also causes enemies to gain 4 heat per second.
+-When striking enemy units that are affected by cursed flames, Pyro deals additional damage equal to 20% of his current heat.
+
++Pyro instead heals health over time when affected with 'on fire', 'cursed flames', or 'frostburn'
+
+CLOAK
+-Base HP: 100 (28/lev)
+-Base MP: 040 (10/lev)
+-Base HT: 070 (05/lev)
+
+-After not attacking for 3 seconds, Cloak becomes invisible.  While invisible, cloak moves 10% faster, jumps higher, and has a 20% chance to evade attacks.
+-Cloak's first attack out of stealth to an enemy hero deals 3 times as much damage, and applies 'fear' to the target, as well as any enemy heroes in a small area around the target, for one second.  Feared targets move in random directions and cannot control their character.
+-Cloak's first attack out of stealth to a non-hero enemy unit will instantly kill the target.  Bosses, towers and other non-minor units will take 3x damage instead.
+
++Cloak's attacks cannot be evaded, blocked, or miss.
+
+Zelse
+-Base HP: 100 (28/lev)
+-Base MP: 060 (12/lev)
+-Base HT: 060 (05/lev)
+
+-When Zelse strikes an enemy hero, he deals bonus damage equal to a percentage of their maximum mana.  The percentage is equal to Zelse's current level (1% at level 1...10% at level 10...).  The bonus damage is also subtracted from the enemy's current mana.
+-When Zelse lands a critical hit on an enemy hero, he silences the target for 2 seconds.  Silenced targets cannot use their mana.
+
+-When Zelse is hit by magic damage, the damage is calculated as though his defense was 15 higher.
+
+JON
+
+-Jon gains 1 charge every time he takes 1% of his maximum health in damage.  Jon gains  1 bonus strength, intelligence and agility every (13-level) charges.
+-Once Jon reaches 60 charges, he loses all of them and becomes invincible and stunned for 3 seconds.
+-Once the 3 seconds have ended, Jon becomes Drixiss for 12 seconds.
+
+-Drixiss can fly infinitely by repeatedly pressing 'jump'.
+-Drixiss fires lasers whenever he attacks, up to one every half second.  Lasers do 30% of the attack's damage.  If a laser hits an enemy unit, Drixiss gains 1 charge.
+-As Drixiss gains charges, his lasers become more powerful.  Each charge adds 2% damage to all lasers.  Additionally...
+ -at 10+ charges, Drixiss's lasers travel further and pierce once.
+ -at 20+ charges, Drixiss fires 2 lasers at a time that rotate around eachother.
+ -If Drixiss reaches 30 charges, he loses all charges and resets the counter until he turns back into Jon.
+
+-When Drixiss's timer runs out, he becomes invincible and stunned for 3 seconds, and then transforms back into Jon.
+
+
+
+
+
