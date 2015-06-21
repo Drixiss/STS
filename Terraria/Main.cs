@@ -17318,11 +17318,12 @@ namespace Terraria
                     this.spriteBatch.Draw(Main.itemTexture[4], new Vector2((float) (num - 16), (float) (num2 + 14)), new Rectangle?(new Rectangle(0, 0, Main.itemTexture[4].Width, Main.itemTexture[4].Height)), Main.teamColor[Main.player[Main.myPlayer].team], -0.785f, default(Vector2), 1f, SpriteEffects.None, 0f);
                     this.spriteBatch.Draw(Main.itemTexture[4], new Vector2((float) (num + 2), (float) (num2 + 14)), new Rectangle?(new Rectangle(0, 0, Main.itemTexture[4].Width, Main.itemTexture[4].Height)), Main.teamColor[Main.player[Main.myPlayer].team], -0.785f, default(Vector2), 1f, SpriteEffects.None, 0f);
                 }
-                //if (Main.mouseX > num && Main.mouseX < num + 34 && Main.mouseY > num2 - 2 && Main.mouseY < num2 + 34)
-                //{
-                //    Main.player[Main.myPlayer].mouseInterface = true;
-                //    if (Main.mouseLeft && Main.mouseLeftRelease && Main.teamCooldown == 0)
-                //    {
+                if (Main.mouseX > num && Main.mouseX < num + 34 && Main.mouseY > num2 - 2 && Main.mouseY < num2 + 34)
+                {
+                    Main.player[Main.myPlayer].mouseInterface = true;
+                    if (Main.mouseLeft && Main.mouseLeftRelease && Main.teamCooldown == 0)
+                    {
+                          NetMessage.SendData(45, -1, -1, "", Main.myPlayer, 0f, 0f, 0f, 0);
                 //        Main.teamCooldown = Main.teamCooldownLen;
                 //        Main.PlaySound(12, -1, -1, 1);
                 //        if (Main.player[Main.myPlayer].hostile)
@@ -17334,8 +17335,8 @@ namespace Terraria
                 //            Main.player[Main.myPlayer].hostile = true;
                 //        }
                 //        NetMessage.SendData(30, -1, -1, "", Main.myPlayer, 0f, 0f, 0f, 0);
-                //    }
-                //}
+                    }
+                }
                 num -= 3;
                 Rectangle value = new Rectangle(Main.mouseX, Main.mouseY, 1, 1);
                 int width = Main.teamTexture.Width;
