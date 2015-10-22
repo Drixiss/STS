@@ -1,21 +1,3 @@
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Terraria.exe
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Terraria.pdb
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\Debug\Terraria.exe
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\Debug\Terraria.pdb
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\Debug\Terraria.csprojResolveAssemblyReference.cache
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Terraria.exe.manifest
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\Terraria.application
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\Debug\Terraria.exe.manifest
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\Debug\Terraria.application
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\obj\Debug\Terraria.exe
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\obj\Debug\Terraria.pdb
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\bin\Debug\Terraria.exe.manifest
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\bin\Debug\Terraria.application
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\bin\Debug\Terraria.exe
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\bin\Debug\Terraria.pdb
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\obj\Debug\Terraria.exe.manifest
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\obj\Debug\Terraria.application
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\obj\Debug\Terraria.csprojResolveAssemblyReference.cache
 C:\Users\Drixiss\Documents\GitHub\STS\obj\Debug\Terraria.exe
 C:\Users\Drixiss\Documents\GitHub\STS\obj\Debug\Terraria.pdb
 C:\Users\Drixiss\Documents\GitHub\STS\bin\Debug\Terraria.exe.manifest

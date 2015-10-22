@@ -424,7 +424,7 @@ namespace Terraria
         public static String[] netPlayers;
         public static int netPlayersReady;
 
-        public static int gameTime = -1800;
+        public static int gameTime = -3600;
 
         public static Vector2 doomPos = new Vector2(0, 0);
         public static String doomTime = "";
@@ -7131,7 +7131,7 @@ namespace Terraria
             }
             if (Main.netMode != 1)
             {
-                if (Main.bossLevel < this.BOSS_ORDER.Length && Main.bossLevel >= 0 && (!Main.bossMode || this.BOSS_ORDER[Main.bossLevel] == NPC.WAVE))
+                if ((Main.bossLevel < this.BOSS_ORDER.Length && Main.bossLevel >= 0 && (this.BOSS_ORDER[Main.bossLevel] == NPC.WAVE)) || (!Main.bossMode))
                 {
                     NPC.SpawnNPC();
                 }

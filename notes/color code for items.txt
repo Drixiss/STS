@@ -1,9 +1,0 @@
-melee = red 		4
-magic = blue		1
-ranged = green		2
-movement = light green 	7
-damage = orange 	3
-protective = cyan 	9
-rod/hook = purple 	6
-potion = magenta 	5
-

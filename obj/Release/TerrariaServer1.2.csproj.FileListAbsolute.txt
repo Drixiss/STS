@@ -1,5 +1,0 @@
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Release\TerrariaServer.exe
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Release\TerrariaServer.pdb
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\Release\ResolveAssemblyReference.cache
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\Release\TerrariaServer.exe
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\Release\TerrariaServer.pdb

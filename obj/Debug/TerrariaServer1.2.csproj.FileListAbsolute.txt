@@ -1,15 +1,2 @@
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\TerrariaServer.exe
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\bin\Debug\TerrariaServer.pdb
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\Debug\TerrariaServer.exe
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\Debug\TerrariaServer.pdb
-C:\Users\Jonathan Balik\Desktop\1.2 fresh decompile\obj\Debug\TerrariaServer1.2.csprojResolveAssemblyReference.cache
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\obj\Debug\TerrariaServer.exe
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\obj\Debug\TerrariaServer.pdb
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\bin\Debug\TerrariaServer.exe
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\bin\Debug\TerrariaServer.pdb
-C:\Users\Drixiss\Desktop\1.2\1.2 fresh decompile\obj\Debug\TerrariaServer1.2.csprojResolveAssemblyReference.cache
 C:\Users\Drixiss\Documents\GitHub\STS\obj\Debug\TerrariaServer.exe
 C:\Users\Drixiss\Documents\GitHub\STS\obj\Debug\TerrariaServer.pdb
-C:\Users\Drixiss\Documents\GitHub\STS\bin\Debug\TerrariaServer.exe
-C:\Users\Drixiss\Documents\GitHub\STS\bin\Debug\TerrariaServer.pdb
-C:\Users\Drixiss\Documents\GitHub\STS\obj\Debug\TerrariaServer1.2.csprojResolveAssemblyReference.cache
